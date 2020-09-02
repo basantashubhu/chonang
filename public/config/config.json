@@ -11,7 +11,7 @@
         "showEmail": false,
         "showAvatar": false
     },
-    "appWss": "http://142.93.5.49",
+    "appWss": "https://systha.tech",
     "recording": {
         "enabled": false,
         "download": false,
