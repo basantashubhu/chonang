@@ -62,3 +62,5 @@
     </ul>
   </div>
 </nav>
+<div id="nd-widget-container" class="nd-widget-container"></div>
+<script id="newdev-embed-script" data-message="Start Video Chat" data-source_path="{{ url('') }}" src="{{ url('js/widget.js') }}" async></script>
