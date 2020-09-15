@@ -20,7 +20,7 @@
 	<script src="{{ asset('js/app.js') }}"></script>
 	<script src="{{asset('js/slick_slider.js')}}"></script>
 
-	<script id="newdev-embed-script" data-message="Start Video Chat" data-source_path="{{ url('') }}" src="{{ url('js/widget.js') }}" async></script>
+	<script id="newdev-embed-script" data-message="Start Video Chat" data-source_path="{{ url('') }}/" src="{{ url('js/widget.js') }}" async></script>
 </head>
 <body>
 	@include('inc.navbar')
