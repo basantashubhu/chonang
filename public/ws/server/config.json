@@ -11,7 +11,7 @@
   "sslKey": "../ssl/key.pem",
   "sslCert": "../ssl/cert.pem",
   "sslCabundle": "",
-  "enableAdmin": "true",
+  "enableAdmin": "false",
   "adminUserName": "admin",
   "adminPassword": "password@1"
 }
