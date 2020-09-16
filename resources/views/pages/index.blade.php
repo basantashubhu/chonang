@@ -116,7 +116,4 @@ $('.responsive').slick({
   ]
 });
 </script>
-    <script>
-      countdown();
-    </script>
 @endsection
