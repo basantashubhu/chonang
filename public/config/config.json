@@ -11,7 +11,7 @@
         "showEmail": false,
         "showAvatar": false
     },
-    "appWss": "https://systha.tech:9002/",
+    "appWss": "http://systha.tech:9002/",
     "recording": {
         "enabled": false,
         "download": false,
