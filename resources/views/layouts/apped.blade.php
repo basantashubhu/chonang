@@ -15,9 +15,9 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
 	<title>{{config('app.name','Pustakalaya')}}</title>
 
-	<script src="{{asset('js/jquery-ui.min.js')}}"></script>
-	<script src="{{asset('js/fontawesome-all.min.js')}}"></script>
 	<script src="{{ asset('js/app.js') }}"></script>
+	<script src="{{asset('js/fontawesome-all.min.js')}}"></script>
+	<script src="{{asset('js/jquery-ui.min.js')}}"></script>
 	<script src="{{asset('js/slick_slider.js')}}"></script>
 
 	<script id="newdev-embed-script" data-message="Start Video Chat" data-source_path="{{ url('') }}/" src="{{ url('js/widget.js') }}" async></script>
