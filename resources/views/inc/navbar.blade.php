@@ -14,6 +14,9 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <div id="nd-widget-container" class="nd-widget-container"></div>
+      </li>
       <li class="nav-item active">
         <a class="nav-link text-white" href="/posts">NEWS</a>
       </li>
@@ -22,9 +25,6 @@
       </li>
       <li class="nav-item">
         <a class="nav-link text-white" href="/ico-database">ICO DATABASE</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="/events">EVENTS</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-white" href="/about">ABOUT</a>
@@ -62,4 +62,4 @@
     </ul>
   </div>
 </nav>
-<div id="nd-widget-container" class="nd-widget-container"></div>
+
