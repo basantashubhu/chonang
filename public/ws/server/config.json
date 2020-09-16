@@ -8,9 +8,9 @@
   "enableLogs": "true",
   "autoRebootServerOnFailure": "false",
   "isUseHTTPs": "true",
-  "sslKey": "../ssl/key.pem",
-  "sslCert": "../ssl/cert.pem",
-  "sslCabundle": "",
+  "sslKey": "/etc/letsencrypt/live/systha.tech/privkey.pem",
+  "sslCert": "/etc/letsencrypt/live/systha.tech/cert.pem",
+  "sslCabundle": "/etc/letsencrypt/live/systha.tech/fullchain.pem",
   "enableAdmin": "false",
   "adminUserName": "admin",
   "adminPassword": "password@1"
