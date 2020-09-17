@@ -13,11 +13,11 @@
     },
     "appWss": "https://systha.tech:9002/",
     "recording": {
-        "enabled": false,
+        "enabled": true,
         "download": false,
-        "saveServer": false,
+        "saveServer": true,
         "autoStart": false,
-        "screen": false,
+        "screen": true,
         "oneWay": false,
         "transcode": false,
         "filename": "record_%room%_%datetime%"
@@ -65,9 +65,11 @@
     "iceServers": {
         "requirePass": false,
         "iceServers": [
-            {"urls": [
+            {
+                "urls": [
                     "stun:sytha.tech:3478"
-                ]}
+                ]
+            }
         ]
     }
 }
