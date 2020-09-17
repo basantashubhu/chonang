@@ -6,9 +6,9 @@
     "anonVisitor": "Visitor",
     "entryForm": {
         "enabled": true,
-        "required": false,
+        "required": true,
         "private": false,
-        "showEmail": false,
+        "showEmail": true,
         "showAvatar": false
     },
     "appWss": "https://systha.tech:9002/",
@@ -23,7 +23,7 @@
         "filename": "record_%room%_%datetime%"
     },
     "whiteboard": {
-        "enabled": false,
+        "enabled": true,
         "allowAnonymous": false
     },
     "transcribe": {
@@ -34,15 +34,15 @@
         "direction": "agent"
     },
     "videoScreen": {
-        "chat": false,
-        "autoAcceptAudio": false,
-        "autoAcceptVideo": false,
+        "chat": true,
+        "autoAcceptAudio": true,
+        "autoAcceptVideo": true,
         "greenRoom": false,
         "waitingRoom": false,
         "onlyAgentButtons": false,
         "videoContainerStyle": "conference",
         "videoConference": true,
-        "getSnapshot": false,
+        "getSnapshot": true,
         "separateScreenShare": false,
         "broadcastAttendeeVideo": false,
         "allowOtherSee": false,
