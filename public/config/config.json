@@ -1,5 +1,5 @@
 {
-    "agentName": "Video Chat Representative1",
+    "agentName": "Video Chat Representative",
     "agentAvatar": "../img/avatar.png",
     "chromePluginId": "nphkdpfdiidjglfcplkpkdjpdlpmkdpg",
     "smartVideoLanguage": "en_US",
@@ -7,9 +7,9 @@
     "entryForm": {
         "enabled": true,
         "required": true,
-        "private": false,
+        "private": true,
         "showEmail": true,
-        "showAvatar": false
+        "showAvatar": true
     },
     "appWss": "https://systha.tech:9002/",
     "recording": {
